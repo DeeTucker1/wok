@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f8f8f8;
+  }
+  
+  .header {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    <link rel="styesheet" heref="style.css">
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  <link rel="styesheet" heref="style.css">
+  .logo svg {
+    width: 100px;
+    height: 50px;
+  }
+  
+  .user-icon {
+    font-size: 24px;
+    color: #888;
+  }
+  
+  .search-bar {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    padding-left: 20px;
+  }
+  
+  .categories {
+    padding: 20px;
+  }
+  
+  .categories h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .category-list {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .category-icon {
+    font-size: 32px;
+    background-color: #eee;
+    border-radius: 50%;
+    padding: 20px;
+  }
+  
+  .category-item span {
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  
+  .job-listings {
+    padding: 20px;
+  }
+  
+  .job-listings h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .job-item {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .job-poster {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .job-info h3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .job-info p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .job-meta {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #777;
+    display: flex;
+    align-items: center;
+  }
+  
+  .job-meta .location {
+    margin-right: 10px;
+  }
+  
+  .job-meta .budget {
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .nav-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+  
+  .nav-bar span {
+    font-size: 18px;
+    color: #888;
+  }
+  
+  .nav-bar span:hover {
+    color: #000;
+  }
+  /* Logo Design Jobs Page Specific Styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #4ECDC4;
+  color: white;
+}
+
+.back-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.category-jobs {
+  padding: 20px;
+}
+
+.job-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.job-poster {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+.job-info h3 {
+  margin: 0 0 10px;
+}
+
+.job-meta {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #777;
+}
+
+.job-meta span {
+  margin: 0 5px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+.nav-bar a, .nav-bar span {
+  color: white;
+  text-decoration: none;
+}
